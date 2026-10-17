@@ -1,0 +1,13 @@
+1) flutter create abrigo_adocao
+2) Apague lib/main.dart gerado e copie para o projeto as pastas: lib/ e assets/ (substituindo), e o README.md
+3) No pubspec.yaml, dentro de "flutter:", deixe assim (indentação com 2 espaços):
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/animais.json
+    - assets/images/
+
+4) flutter pub get
+5) flutter run
+6) Troque as imagens de assets/images/ por fotos reais, mantendo os mesmos nomes (thor.jpg, mia.jpg...)
